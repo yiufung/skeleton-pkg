@@ -6,3 +6,9 @@ test_that("a simple test", {
 
   expect_equal(1, 1)
 })
+
+test_that("The data.table assignment works", {
+  dt <- DT_test()
+  expect_equal(1, 1)
+  # test stuff
+})
